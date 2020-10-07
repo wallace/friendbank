@@ -95,7 +95,7 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
 
   const copy = JSON.stringify({
     'idQuestions.support.label': {
-      [ENGLISH]: 'Will you vote to re-elect Jonathan Wallace to the United States Senate on September 1st?',
+      [ENGLISH]: 'Will you vote to re-elect Jonathan Wallace to the Georgia House on November 3rd?',
       [SPANISH]: '¿Votará para reelegir a Jonathan Wallace al Senado de los Estados Unidos el 1 de septiembre?',
     },
     'idQuestions.support.options': {
@@ -135,10 +135,10 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       ],
     },
     'idQuestions.vote.label': {
-      [ENGLISH]: 'Are you planning to vote by mail for Jonathan in the Massachusetts primary?',
+      [ENGLISH]: 'Are you planning to vote by mail for Jonathan in the November general election?',
     },
     'idQuestions.vote.subtitle': {
-      [ENGLISH]: 'Voting by mail is the safest way to make your voice heard in this election, and new laws have expanded access to vote by mail in Massachusetts for every registered voter. An application to vote by mail will be mailed to each registered voter in MA (or you can download one and mail or email it in). Just complete that application, send it back, and you’ll receive a ballot to vote for Jonathan by mail. Skip the polls, stay safe, and get your vote for Jonathan in early -- vote by mail!',
+      [ENGLISH]: 'Voting by mail is the safest way to make your voice heard in this election. An application to vote by mail will be mailed to each registered voter in GA (or you can download one and mail or email it in). Just complete that application, send it back, and you’ll receive a ballot to vote for Jonathan by mail. Skip the polls, stay safe, and get your vote for Jonathan in early -- vote by mail!',
     },
     'idQuestions.vote.options': {
       [ENGLISH]: [
@@ -149,17 +149,17 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       ],
     },
     'voteStatus.label': {
-      [ENGLISH]: 'Make a plan to vote for Jonathan in the Massachusetts primary!',
+      [ENGLISH]: 'Make a plan to vote for Jonathan in the Georgia General election!',
     },
     'voteStatus.subtitle': {
-      [ENGLISH]: 'Our future and our planet are on the line. Make your voice heard by making a plan to vote for Jonathan Wallace in the Massachusetts Senate Primary Election. If you have not already applied to vote by mail, please make a plan to vote early or on Election Day.',
+      [ENGLISH]: 'Our future and our planet are on the line. Make your voice heard by making a plan to vote for Jonathan Wallace in the Georgia General Election. If you have not already applied to vote by mail, please make a plan to vote early or on Election Day.',
     },
     'voteStatus.options': {
       [ENGLISH]: [
         'I’ve already voted',
         'I’ve received my mail-in ballot and still need to return it',
-        'I’m planning to vote early between August 22-28',
-        'I’m planning to vote on Election Day, September 1',
+        'I’m planning to vote early between October 12-30',
+        'I’m planning to vote on Election Day, November 3',
       ],
     },
     'actions.gotv.label': {
@@ -186,8 +186,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'Personaliza tu página',
     },
     'homepage.customizeSubtitle': {
-      [ENGLISH]: `Fill out the sections below to personalize the title, description, and design of your supporter page to tell your network why you’re #StickingWithEd. Share your story of why you’re a member of this movement -- feel free to get creative!`,
-      [SPANISH]: `Llena las siguientes secciones para personalizar el título, la descripción y el diseño de tu página de apoyo para decirle a tus redes por qué estás #ConEd. Comparte tu historia de por qué eres miembro de este movimiento. ¡Siéntete libre de ser creativo!`,
+      [ENGLISH]: `Fill out the sections below to personalize the title, description, and design of your supporter page to tell your network why you’re #Wallacefor119. Share your story of why you’re a member of this movement -- feel free to get creative!`,
+      [SPANISH]: `Llena las siguientes secciones para personalizar el título, la descripción y el diseño de tu página de apoyo para decirle a tus redes por qué estás #Wallacefor119. Comparte tu historia de por qué eres miembro de este movimiento. ¡Siéntete libre de ser creativo!`,
     },
     'homepage.formButtonLabel': {
       [ENGLISH]: 'next',
@@ -198,11 +198,11 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'crear página',
     },
     'homepage.defaultTitle': {
-      [ENGLISH]: `{{FIRST_NAME}} is #StickingWithEd because...`,
-      [SPANISH]: '{{FIRST_NAME}} está #ConEd porque...'
+      [ENGLISH]: `{{FIRST_NAME}} is #Wallacefor119 because...`,
+      [SPANISH]: '{{FIRST_NAME}} está #Wallacefor119 porque...'
     },
     'homepage.defaultSubtitle': {
-      [ENGLISH]: 'Ed comes from a working family, and he’s fighting from the heart for the working class. Ed is running a people-powered campaign, and it’s up to us to help make sure he can keep fighting in the Senate for our shared progressive values. Let me know that you are with me, and help me reach my goal!',
+      [ENGLISH]: 'Ed comes from a working family, and he’s fighting from the heart for the working class. Ed is running a people-powered campaign, and it’s up to us to help make sure he can keep fighting in the State House for our shared progressive values. Let me know that you are with me, and help me reach my goal!',
       [SPANISH]: 'Ed viene de una familia trabajadora y está luchando con todo su corazón por la clase trabajadora. Ed está llevando a cabo una campaña impulsada por la gente y depende de nosotros asegurarnos de que pueda seguir luchando en el Senado por nuestros valores progresistas. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
     },
     'signupPage.postSignupSubtitle': {
@@ -256,8 +256,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'Perfecto, lo tengo.',
     },
     'nav.logoAlt': {
-      [ENGLISH]: 'Jonathan Wallace For Senate Logo',
-      [SPANISH]: 'Logo de Jonathan Wallace para el Senado',
+      [ENGLISH]: 'Jonathan Wallace For 119 Logo',
+      [SPANISH]: 'Logo de Jonathan Wallace para 119',
     },
     'nav.return': {
       [ENGLISH]: '← return to wallacefor119.com',
