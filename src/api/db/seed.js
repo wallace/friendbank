@@ -20,20 +20,20 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
     {
       _id: 'default',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/em-header-original.jpg',
-      alt: 'Ed at the Podium',
+      source: 'https://friendbank.s3.amazonaws.com/get-learnt-w-teachers.jpeg',
+      alt: 'Jonathan with teachers',
     },
     {
-      _id: 'hoops',
+      _id: 'jonathan-speaking-with-voters',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/hoops.jpg',
-      alt: 'Ed shooting hoops',
+      source: 'https://friendbank.s3.amazonaws.com/voter-outside-convo.jpeg',
+      alt: 'Jonathan speaking with voters',
     },
     {
-      _id: 'air-flight-89',
+      _id: 'jonathan-with-doctors-learning',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/air-flight-89.png',
-      alt: 'Ed wearing his pair of Air Flight ‘89s',
+      source: 'https://friendbank.s3.amazonaws.com/doctors-learning.jpg',
+      alt: 'Jonathan with doctors',
     },
     {
       _id: 'fierce-v',
@@ -72,10 +72,10 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       alt: 'Jonathan standing with Yvonne'
     },
     {
-      _id: 'ed-unite-here',
+      _id: '2-kids-learning',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/IMG_3743.JPG',
-      alt: 'Ed marching with a labor union',
+      source: 'https://friendbank.s3.amazonaws.com/2-kids-learning.png',
+      alt: 'Jonathan with students',
     },
   ];
 
