@@ -95,8 +95,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
 
   const copy = JSON.stringify({
     'idQuestions.support.label': {
-      [ENGLISH]: 'Will you vote to re-elect Jonathan Wallace to the Georgia House on November 3rd?',
-      [SPANISH]: '¿Votará para reelegir a Jonathan Wallace al Senado de los Estados Unidos el 1 de septiembre?',
+      [ENGLISH]: 'Will you vote to re-elect Jonathan Wallace to the Georgia House before November 3rd?',
+      [SPANISH]: '¿Votará para reelegir a Jonathan Wallace al Cámara de Representantes antes del 3 de noviembre?',
     },
     'idQuestions.support.options': {
       [ENGLISH]: [
@@ -202,8 +202,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: '{{FIRST_NAME}} está #Wallacefor119 porque...'
     },
     'homepage.defaultSubtitle': {
-      [ENGLISH]: 'Ed comes from a working family, and he’s fighting from the heart for the working class. Ed is running a people-powered campaign, and it’s up to us to help make sure he can keep fighting in the State House for our shared progressive values. Let me know that you are with me, and help me reach my goal!',
-      [SPANISH]: 'Ed viene de una familia trabajadora y está luchando con todo su corazón por la clase trabajadora. Ed está llevando a cabo una campaña impulsada por la gente y depende de nosotros asegurarnos de que pueda seguir luchando en el Senado por nuestros valores progresistas. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
+      [ENGLISH]: 'Jonathan comes from a working family, and he’s fighting from the heart for the working class. Jonathan is running a people-powered campaign, and it’s up to us to help make sure he can keep fighting in the State House for our shared progressive values. Let me know that you are with me, and help me reach my goal!',
+      [SPANISH]: 'Jonathan viene de una familia trabajadora y está luchando con todo su corazón por la clase trabajadora. Jonathan está llevando a cabo una campaña impulsada por la gente y depende de nosotros asegurarnos de que pueda seguir luchando en el Senado por nuestros valores progresistas. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
     },
     'signupPage.postSignupSubtitle': {
       [ENGLISH]: 'Next, keep up the momentum by sharing this link with your friends, family, and network, and help {{FIRST_NAME}} reach their goal! Or, make your own page and get everyone you know to join the fight.',
@@ -295,8 +295,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'PAGADO POR THE JONATHAN WALLACE FOR STATE HOUSE COMMITTEE',
     },
     'smsDisclaimer': {
-      [ENGLISH]: 'By providing your cell phone number you consent to receive periodic campaign updates from the Jonathan Wallace for State House Committee. Text HELP for help, STOP to end. Message & data rates may apply. https://www.edmarkey.com/privacy-policy/',
-      [SPANISH]: 'Al proporcionar su número de teléfono celular usted consiente en recibir actualizaciones periódicas de la campaña de The Jonathan Wallace for State House Committee. Envíe un mensaje de texto que diga HELP para pedir ayuda o STOP para descontinuar los mensajes. Pueden aplicar tarifas de mensajes y data. https://www.edmarkey.com/privacy-policy/',
+      [ENGLISH]: 'By providing your cell phone number you consent to receive periodic campaign updates from the Jonathan Wallace for State House Committee. Text HELP for help, STOP to end. Message & data rates may apply.',
+      [SPANISH]: 'Al proporcionar su número de teléfono celular usted consiente en recibir actualizaciones periódicas de la campaña de The Jonathan Wallace for State House Committee. Envíe un mensaje de texto que diga HELP para pedir ayuda o STOP para descontinuar los mensajes. Pueden aplicar tarifas de mensajes y data.',
     },
     'genericError': {
       [ENGLISH]: 'Looks like we had an error, try again? If this continues to happen, please contact us https://www.wallacefor119.com/contact/',
