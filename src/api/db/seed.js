@@ -287,8 +287,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'Política de privacidad',
     },
     'privacyPolicy.link': {
-      [ENGLISH]: 'https://www.edmarkey.com/privacy-policy/',
-      [SPANISH]: 'https://www.edmarkey.com/es/privacy-policy/',
+      [ENGLISH]: 'https://www.wallacefor119.com/privacy-policy/',
+      [SPANISH]: 'https://www.wallacefor119.com/privacy-policy/',
     },
     'politicalDiclaimer': {
       [ENGLISH]: 'PAID FOR BY THE JONATHAN WALLACE FOR STATE HOUSE COMMITTEE',
