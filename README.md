@@ -66,4 +66,8 @@ src/frontend/components/Nav.js
 
 # Images, select options, web copy
 src/api/db/seed.js
+
+# A few more spots of web copy
+src/frontend/components/FormFields.js
+src/frontend/utils/getCopy.js
 ```
